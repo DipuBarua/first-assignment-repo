@@ -58,7 +58,7 @@ body {
     text-align: center;
     font-size: 18px;
     font-weight: 400;
-    padding: 30px 500px;
+    /* padding: 30px 500px; */
 }
 
 
@@ -72,4 +72,25 @@ body {
     background: rgba(39, 39, 39, 0.05);
     margin: 250px 150px;
     padding: 150px;
+}
+
+
+/* hot deal sale section start  */
+
+
+/* .hot-deal {
+    text-align: center;
+} */
+
+.sale {
+    display: flex;
+    background-color: rgba(229, 84, 115, 0.05);
+    border-radius: 8px;
+    padding: 230px;
+    text-align: center;
+}
+
+.hot-deal>.primary-title,
+.primary-description {
+    margin: 24px;
 }
