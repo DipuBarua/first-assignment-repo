@@ -94,3 +94,21 @@ body {
 .primary-description {
     margin: 24px;
 }
+
+#red-color {
+    color: #E55473;
+}
+
+
+/* social media -->instagram section start */
+
+.instagram .primary-title,
+.primary-description {
+    margin: 24px;
+}
+
+.flower-sample {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
