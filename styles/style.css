@@ -36,6 +36,9 @@ body {
 }
 
 
+/* features section style is created at bottom  */
+
+
 /* common shared styles start */
 
 .primary-btn {
@@ -103,29 +106,27 @@ body {
 
 /* social media -->instagram section start */
 
-.instagram .primary-title,
-.primary-description {
-    margin: 24px;
+.instagram .primary-description {
+    padding: 24px;
 }
 
 .flower {
-    width: 100%;
-}
-
-.flower-sample {
-    /* display: flex; */
-    /* justify-content: space-around; */
-    /* width: 60%;
-    margin: auto;
-    gap: 40px; */
+    width: 300px;
     height: 300px;
-    width: 150px;
+    /* background-color: #E55473; */
+    text-align: center;
 }
 
-.instagram .flower-sample {
+.flower-sample-img {
+    width: 100%;
+    height: 100%;
+}
+
+.flower-sample-container {
     display: flex;
-    justify-content: space-around;
-    gap: 20px;
+    justify-content: center;
+    gap: 40px;
+    padding: 50px 150px 0px 150px;
 }
 
 
@@ -194,7 +195,7 @@ footer {
     height: 250px;
     width: 200px;
     border-radius: 100px 100px 0px 0px;
-    background-color: #E55473;
+    background-color: #f19daf;
     text-align: center;
 }
 
